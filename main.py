@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import mysql.connector
 
-app = Flask('__init__')
+app = Flask('__name__')
 
 
 @app.route("/")
